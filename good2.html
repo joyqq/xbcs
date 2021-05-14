@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>折叠桌</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="icon" type="image/x-ico" href="./img/logo.ico" />
+<style>
+.title-block {
+    height: 26px;
+    text-align: center;
+}
+
+.block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: column-reverse nowrap;
+    flex-flow: column-reverse nowrap;
+    width: 360px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #4C4C4C;
+    line-height: 28px;
+    box-sizing: border-box;
+    border: 7px solid #FFCCBC;
+        /* padding: 10px; */
+}
+
+.detail {
+    margin: 10px;
+    margin-top: 0;
+}
+
+.block > .detail {
+    max-height: 190px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.block > .case-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100px;
+    height: 24px;
+    margin: 0 auto 0;
+    margin-bottom: 10px;
+    color: #fff;
+    background: #FFAB91;
+    /* border: 1px solid #ff8d6a; */
+    border-radius: 5px;
+}
+
+.block > .case-block div:nth-of-type(1) {
+    display: block;
+}
+
+.block > .case-block div:nth-of-type(2) {
+    display: none;
+}
+
+.block > [type="checkbox"] {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 24px;
+    margin: -24px auto 0;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.block > [type="checkbox"]:hover + .case-block {
+    background-color: #FFAB91;
+}
+
+.block > [type="checkbox"]:checked + .case-block div:nth-of-type(1) {
+    display: none;
+}
+
+.block > [type="checkbox"]:checked + .case-block div:nth-of-type(2) {
+    display: block;
+}
+
+.block > [type="checkbox"]:checked + .case-block + .detail {
+    max-height: inherit;
+}
+
+#myBtn {
+    display: none;
+  position: fixed;
+  bottom: 20px;
+  left: calc(50% - 40px) ;
+  /* left: 0;
+  right: 0; */
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.356);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+    <div class="infos" style="font-family: jiangxizhuokai; text-align: center; ">
+        <div style="background-color: #FFF59D; height: 40px; line-height: 40px;">特典名称： 折叠桌</div>
+        <div style="background-color: #C5E1A5;height: 40px; line-height: 40px;">@徐明浩吧_The8Bar</div>
+        <div style="background-color: #b5dbfa;height: 40px; line-height: 40px;">原文地址： <a href="https://m.weibo.cn/detail/4636478465114342">点我去微博</a></div>
+        <div style="background-color: #e5b6ee;height: 40px; line-height: 40px;">owhat地址： <a href="https://www.owhat.cn/prod/shop/shopdetail?id=155741&encode=b16c04071dc78c43&utm_source=owhat&utm_medium=weido">点我去owhat</a></div>
+    </div>
+    <img src="./img/sm_wz.png" alt="" style="width: 100%;">
+
+<section class="block">
+    <input type="checkbox">
+    <div class="case-block">
+      <div>展开</div>
+      <div>收起</div>
+    </div>
+    <div class="detail">
+<p>【2021年SEVENTEEN回归徐明浩吧_The8Bar 1V1折叠桌SET】</p>
+<p>
+⭕本SET25RMB特典包邮（前100名22RMB包邮！）⭕️<br>
+⭕请认真阅读公告后参与活动⭕<br>
+⭕若有任何疑问，请先私信浩吧⭕<br>
+</p>
+<p>
+    🌴1V1折叠桌SET定金🔗：<a href="https://www.owhat.cn/prod/shop/shopdetail?id=155741&encode=b16c04071dc78c43&utm_source=owhat&utm_medium=weido">点我去owhat</a>
+</p>
+<p>
+夏日照在头顶的阳光☀<br>
+大大的墨镜挡住刺眼的灼热<br>
+水花声此起彼伏🌊
+</p>
+<p>
+    看呀～<br>
+靠近岸边有一只小黄鸭<br>
+快带着浩浩出去玩吧！<br>
+冰镇西瓜和海盐汽水🍸<br>
+冰块与气泡相拥的清爽感<br>
+海滩上的沙砾城堡🏰<br>
+白色贝壳在闪闪发光🐚<br>
+迎面海风吹来咸咸的气息<br>
+那是大海对你轻柔的问候<br>
+不要犹豫 即刻出发<br>
+趁现在 趁这个夏天刚刚开始🍃
+</p>
+<p>
+🍉<text style="color: #1E88E5;">特典构成：</text>
+<br>
+折叠桌
+<br>
+🍉<text style="color: #1E88E5;">特典规格：</text>
+<br>
+60*40*28
+<br>
+🍉<text style="color: #1E88E5;">特典价格：</text>
+<br>
+25RMB非偏远包邮（新疆西藏海南地区需要根据具体地址进行补邮）
+</p>
+<p>
+    ‼️惊喜夏日🌴限量优惠活动‼️<br>
+为了让小仙女们享受到优惠的价格，前100名购买可以享受到VIP价格22RMB包邮，售完即止
+</p>
+<p>
+    🎊转发抽奖🎊<br>
+转发本条微博并艾特两位好友，浩吧将随机抽取两位粉丝各送折叠桌一张，大家多多转发吧～🥳
+
+</p>
+<p>
+    👉注意⚠️ 1V1折叠桌特典全/款为25RMB（前100名全/款为22RMB），后期还需补专辑款才能拿到特典
+</p>
+<p>
+    ‼️注意事项 ‼️<br>
+1.1V1折叠桌SET，一份特典对应一张专辑，特典价格为25RMB（前100名价格为22RMB）<br>
+2.本SET分运回/不运回两种形式，运回后续均需补专辑款，不运回需补专辑款和配置邮费才进行邮寄，详情请注意留意浩吧官博和特典群的通知<br>
+3.请认真阅读公告内容后再下单，定/金支付成功，则不接受任何理由的退款<br>
+4.购/买后请加特典企鹅群：942146010（进群请备注单号和OW昵称）❗<br>
+5.仅限同一账号同一收货地址多单叠加<br>
+6.所有专辑均通过正规渠道购/买，保证计入榜单销/量。<br>
+7.由于特典制作周期较长，还请大家及时关注浩吧官博及特典群的公告或通知，感谢各位小仙女的支持和配合哟~💗<br>
+8.一切以实物为准，本活动最终解释权归@徐明浩吧_The8Bar 所有
+</p>
+<p>
+    画手by 层层<br>
+策划by 猪猪 Tiffany 锅盖 馒头<br>
+文案by Fine 米粒儿
+</p>
+    </div>
+  </section>
+
+<img src="./img/sm_tp.png" alt="" style="width: 100%;">
+<!-- <img src="./impotantImg/1_1.jpg" alt="" style="width: 100%;"> -->
+<img src="./impotantImg/2_1.jpeg" alt="" style="width: 100%;">
+<div class="zhanwei"></div>
+<div>
+    <button onclick="topFunction()" id="myBtn" title="回顶部">返回顶部</button>
+</div>
+
+<script>
+
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {
+    // console.log(121);
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>

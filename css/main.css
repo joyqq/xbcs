@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* min-width: 350px; */
+    max-width: 500px;
+}
+
+.main-con {
+    width: 100%;
+    min-width: 350px;
+    
+}
+
+.agood {
+    /* 100+x+80 */
+    height: 100px;
+    /* width: 750; */
+    margin-bottom: 20px;
+    /* background-color: beige; */
+    display: flex;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.leftpart {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-size: 100% 100%;
+}
+
+.midpart {
+    width: calc(100% - 180px); 
+    /* border-radius: 12px; */
+    /* display: flex; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rightpart {
+    width: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.zhanwei {
+    height: 90px;
+    background-color: #B3E5FC;
+}
+
+
+
+@font-face {
+    font-family: "jiangxizhuokai";
+    src: url('../font/jiangxizhuokai.ttf');
+}
