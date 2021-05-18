@@ -14,6 +14,10 @@ document.getElementById("good4").onclick=function(){
     window.location.href="good4.html"
 }
 
+document.getElementById("good5").onclick=function(){
+    window.location.href="good5.html"
+}
+
 document.getElementById("goodbyh1").onclick=function(){
     window.location.href="goodbyh1.html"
 }
