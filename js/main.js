@@ -22,12 +22,20 @@ document.getElementById("good6").onclick=function(){
     window.location.href="good6.html"
 }
 
+document.getElementById("good7").onclick=function(){
+    window.location.href="good7.html"
+}
+
 document.getElementById("goodbyh1").onclick=function(){
     window.location.href="goodbyh1.html"
 }
 
+// function zyj(){
+    
+// }
+
 function getRTime(){ 
-    var EndTime= new Date('2021/05/27 21:10:00'); //截止时间 
+    var EndTime= new Date('2021/06/03 18:00:00'); //截止时间 
     var NowTime = new Date(); 
     var t =EndTime.getTime() - NowTime.getTime(); 
     

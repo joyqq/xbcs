@@ -5,6 +5,7 @@
 	<title>小八超市</title>
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="icon" type="image/x-ico" href="./img/logo.ico" />
+	
 </head>
 
 <body>
@@ -18,6 +19,34 @@
 	
 	<div class="main-con">
 
+		<div class="agood" id="good7">
+			<div class="leftpart" style="background-image: url('./impotantImg/7_3.jpeg');"></div>
+			<div class="midpart" style="background-color: rgb(252, 206, 57); font-family: 'jiangxizhuokai';">
+				<div style="font-size: 15; margin-left: 20px; margin-top: 21px;"><text>“THE8 PLANET”丝巾</text></div>
+				<div style="font-size: 13; margin-top: 10; margin-left: 20px;"><text>徐明浩吧_The8Bar</text></div>
+			</div>
+			<div class="rightpart" style="background-color: rgb(252, 206, 57);  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+				<div class="r2" style="font-size: 20px; font-weight: bold; margin-left: 8px;">¥ 15</div>
+				<div class="r3" style=" margin-left: 7px; margin-top: 2px;">
+					<div style="font-size: 12px; transform: scale(0.9); color: rgb(180, 97, 2)">特典全款</div>
+				</div>
+				<div class="r3" id="zyj" style=" margin-top: 2px;">
+					<div style="margin-left: 7px; font-size: 12px; transform: scale(0.9); color: rgb(255, 0, 0);">48H 优惠中</div>
+					<div id="CountMsg" class="HotDate" style="margin-left: 1px; font-size: 12px; transform: scale(0.75); color: red"> 
+						<text id="t_h">00时</text><text id="t_m">00分</text><text id="t_s">00秒</text> 
+					</div> 
+				</div>
+				<script>
+					var EndTime= new Date('2021/06/03 18:00:00'); //截止时间 
+    				var NowTime = new Date(); 
+    				var t = EndTime.getTime() - NowTime.getTime(); 
+    				if(t<0) {
+						document.getElementById("zyj").style.display = "none";
+					}
+				</script>
+			</div>
+		</div>
+
 		<div class="agood" id="good6">
 			<div class="leftpart" style="background-image: url('./impotantImg/6_1.jpeg');"></div>
 			<div class="midpart" style="background-color: #81C784; font-family: 'jiangxizhuokai';">
@@ -25,21 +54,21 @@
 				<div style="font-size: 13; margin-top: 10; margin-left: 20px;"><text>徐明浩吧_The8Bar</text></div>
 			</div>
 			<div class="rightpart" style="background-color: #81C784;  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-				<div class="r2" style="font-size: 20px; font-weight: bold; margin-left: 8px;">¥ 11<text style="font-size: 13px;">起</text></div>
-				<!-- <div class="r3" style=" margin-left: 7px; margin-top: 2px;">
+				<div class="r2" style="font-size: 20px; font-weight: bold; margin-left: 8px;">¥ 11<text style="font-size: 12px;"> 起</text></div>
+				<div class="r3" style=" margin-left: 7px; margin-top: 2px;">
 					<div style="font-size: 12px; transform: scale(0.9); color: #093f0a">特典全款</div>
-				</div> -->
-				<div class="r3" style=" margin-top: 2px;">
+				</div>
+				<!-- <div class="r3" style=" margin-top: 2px;">
 					<div style="margin-left: 7px; font-size: 12px; transform: scale(0.9); color: rgb(255, 0, 0);">48H 1v2中</div>
 					<div id="CountMsg" class="HotDate" style="margin-left: 1px; font-size: 12px; transform: scale(0.75); color: #093f0a;"> 
 						<text id="t_h">00时</text><text id="t_m">00分</text><text id="t_s">00秒</text> 
 					</div> 
-				</div>
+				</div> -->
 			</div>
 		</div>
 
 		<div class="agood" id="good5">
-			<div class="leftpart" style="background-image: url('./impotantImg/5.jpg');"></div>
+			<div class="leftpart" style="background-image: url('./impotantImg/5.jpeg');"></div>
 			<div class="midpart" style="background-color: rgb(222, 248, 158); font-family: 'jiangxizhuokai';">
 				<div style="font-size: 18; margin-left: 20px; margin-top: 21px;"><text>微笑蛙蛙杯</text></div>
 				<div style="font-size: 13; margin-top: 10; margin-left: 20px;"><text>徐明浩吧_The8Bar</text></div>
@@ -54,7 +83,7 @@
 
 
 		<div class="agood" id="good4">
-			<div class="leftpart" style="background-image: url('./impotantImg/4_1.jpg');"></div>
+			<div class="leftpart" style="background-image: url('./impotantImg/4_intro.jpg');"></div>
 			<div class="midpart" style="background-color: rgb(209, 205, 248); font-family: 'jiangxizhuokai';">
 				<div style="font-size: 18; margin-left: 20px; margin-top: 21px;"><text>床上四件套</text></div>
 				<div style="font-size: 13; margin-top: 10; margin-left: 20px;"><text>徐明浩吧_The8Bar</text></div>
@@ -126,7 +155,7 @@
 				<div style="font-size: 13; font-family: 'jiangxizhuokai'; margin-top: 10; margin-left: 20px;"><text>徐明浩吧_The8Bar</text></div>
 			</div>
 			<div class="rightpart" style="background-color: rgb(123, 178, 249); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-				<div class="r2" style="font-size: 20px; font-weight: bold; margin-left: 8px;">¥ 1<text style="font-size: 13px;">起</text></div>
+				<div class="r2" style="font-size: 20px; font-weight: bold; margin-left: 8px;">¥ 1<text style="font-size: 12px;"> 起</text></div>
 			</div>
 		</div>
 	</div>
